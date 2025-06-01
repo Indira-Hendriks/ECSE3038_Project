@@ -6,7 +6,7 @@
 // Configuration - update these values
 const char* ssid = "MonaConnect";
 const char* password = "";
-const char* apiBaseUrl = "http://127.0.0.1:8000";  // local server address
+const char* apiBaseUrl = "https://ecse3038-project-wcrk.onrender.com"; 
 
 // Pin definitions
 const int tempSensorPin = 4;    // Analog pin for temperature sensor
