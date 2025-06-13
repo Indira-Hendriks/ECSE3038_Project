@@ -37,7 +37,6 @@ void connectToWiFi() {
 
 float readTemperature() {
   // Read analog value and convert to temperature
-  // This is a placeholder - calibrate for your specific sensor
   int analogValue = analogRead(tempSensorPin);
   float voltage = analogValue * (3.3 / 4095.0);
   float temperature = (voltage - 0.5) * 100;  // LM35 approximation
